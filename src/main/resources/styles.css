@@ -1,0 +1,306 @@
+/* 角色按钮样式 */
+.role-btn {
+    -fx-font-size: 16px;
+    -fx-padding: 10 20;
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.role-btn.selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+}
+
+/* 操作按钮样式 */
+.action-btn {
+    -fx-font-size: 14px;
+    -fx-padding: 8 25;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.action-btn:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* 输入框样式 */
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 4px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #3498db;
+}
+/* 圆形角色按钮样式 */
+.role-btn {
+    -fx-background-radius: 50%;
+    -fx-min-width: 80px;
+    -fx-min-height: 80px;
+    -fx-max-width: 80px;
+    -fx-max-height: 80px;
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 50%;
+    -fx-border-width: 2px;
+    -fx-font-size: 12px;
+    -fx-padding: 5px;
+    -fx-text-fill: #2c3e50;
+    -fx-cursor: hand;
+}
+
+.role-btn:hover {
+    -fx-background-color: #dfe6e9;
+}
+
+.role-btn.selected {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-color: #2980b9;
+}
+
+/* 复选框样式 */
+.check-box {
+    -fx-text-fill: #7f8c8d;
+    -fx-font-size: 12px;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #3498db;
+}
+
+/* 找回密码标签 */
+.forgot-pwd {
+    -fx-text-fill: #3498db;
+    -fx-font-size: 12px;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+
+.forgot-pwd:hover {
+    -fx-text-fill: #2980b9;
+}
+/* 添加Logo样式 */
+.logo {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+    -fx-cursor: hand;
+    -fx-transition: all 0.3s;
+}
+
+.logo:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 8, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+/* 导航栏样式 */
+.nav-btn {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 12px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.nav-btn:hover {
+    -fx-background-color: #415b76;
+}
+
+/* 内容区域样式 */
+.content-pane {
+    -fx-background-color: #f5f6fa;
+    -fx-padding: 30px;
+}
+/* 标题样式 */
+.welcome-label {
+    -fx-font-size: 34px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+    -fx-font-family: "Microsoft YaHei";
+    -fx-padding: 0 0 20px 0;
+}
+
+/* 信息标签 */
+.info-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #34495e;
+    -fx-font-weight: 600;
+    -fx-background-color: transparent;
+}
+
+/* 输入框 */
+.info-field {
+    -fx-font-size: 18px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+    -fx-padding: 10px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.05), 6, 0, 0, 3);
+}
+
+/* 输入框聚焦效果 */
+.info-field:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(gaussian, rgba(52,152,219,0.15), 8, 0, 0, 4);
+}
+/* 课表表格样式 */
+.table-view {
+    -fx-base: #ecf0f1;
+    -fx-table-cell-border-color: transparent;
+}
+
+
+
+.logout-btn {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-min-width: 160px;
+    -fx-min-height:40px;
+    -fx-max-width: 160px;
+    -fx-max-height: 40px;
+}
+/* 保存按钮样式 */
+.save-btn {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 30px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(52,152,219,0.3), 8, 0, 0, 2);
+}
+
+.save-btn:hover {
+    -fx-background-color: #2980b9;
+    -fx-effect: dropshadow(gaussian, rgba(52,152,219,0.4), 10, 0, 0, 3);
+}
+
+/* 课表标题 */
+.schedule-title {
+    -fx-font-size: 28px;
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 20px 0;
+}
+
+/* 表格样式 */
+.table-view {
+    -fx-base: #ffffff;
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* 表头样式 */
+.column-header {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* 表格行 */
+.table-row-cell {
+    -fx-font-size: 14px;
+}
+
+/* 导出按钮 */
+.export-btn {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 25px;
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+}
+
+.export-btn:hover {
+    -fx-background-color: #219a52;
+}
+/* 增加按钮容器右边距 */
+.button-container {
+    -fx-padding: 0 0 20px 0;
+}
+/* 主容器宽度 */
+.eval-titled-pane {
+    -fx-pref-width: 1000px;  /* 总宽度调整为600px */
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 4px;
+    -fx-padding: 5px;
+}
+
+/* 标题区域样式 */
+.eval-title-box {
+    -fx-padding: 8px;
+    -fx-alignment: center-left;
+}
+
+/* 课程名称样式 */
+.eval-course {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* 教师信息样式 */
+.eval-teacher {
+    -fx-font-size: 14px;
+    -fx-text-fill: #666;
+}
+
+/* 内容区域样式 */
+.eval-content {
+    -fx-padding: 15px;
+    -fx-spacing: 12px;
+    -fx-pref-width: 980px;  /* 内容区域宽度略小于总宽度 */
+}
+
+/* 滑动条样式 */
+.eval-slider {
+    -fx-pref-width: 980px;  /* 滑动条宽度占满内容区域 */
+}
+
+/* 文本框样式 */
+.eval-comment {
+    -fx-pref-height: 100px;
+    -fx-pref-width: 980px;  /* 文本框宽度占满 */
+}
+
+/* 评价触发按钮 */
+.eval-trigger-btn {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 5px 15px;
+}
+
+/* 按钮容器样式（确保填满宽度） */
+.eval-submit-container {
+    -fx-max-width: infinity;  /* 允许横向扩展 */
+    -fx-padding: 10px 0;      /* 上下留白 */
+}
+
+/* 提交按钮样式 */
+.eval-submit-btn {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 35px;    /* 更合理的高度 */
+    /* 删除无效的 -fx-pref-left */
+}
+
